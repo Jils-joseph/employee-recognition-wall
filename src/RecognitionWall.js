@@ -30,7 +30,7 @@ const RecognitionWall = () => {
             value={employee}
             onChange={(e) => setEmployee(e.target.value)}
           />
-          <textarea
+          <input
             className="p-3 w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Recognition Message"
             rows="3"
